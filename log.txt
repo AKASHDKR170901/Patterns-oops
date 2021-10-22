@@ -1,0 +1,9 @@
+INFO:root:Anew request came
+INFO:root:Request Processing completed
+INFO:root:Anew request came
+ERROR:root:division by zero
+Traceback (most recent call last):
+  File "E:\pythonProject\124rec.py", line 7, in <module>
+    print(x/y)
+ZeroDivisionError: division by zero
+INFO:root:Request Processing completed
