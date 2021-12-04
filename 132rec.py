@@ -1,5 +1,5 @@
 class Test:
-    def __init__(self):
+    def __init__(self) -> object:
         self.a=1000
         self.b=2000
     def m1(self):
@@ -13,3 +13,11 @@ t1.f=99
 print(t1.__dict__)
 t2=Test()
 print(t2.__dict__)
+
+
+
+
+
+
+
+
