@@ -24,7 +24,7 @@ while True:
         c.deposit(amount)
     elif option=='w' or option=='W':
         amount=eval(input('Enter the amount:'))
-        while amount%500 !=0:
+        if amount%500 !=0:
             print('Amount should be multiples of 500')
             amount=eval(input('Enter the amount:'))
         c.withdraw(amount)
